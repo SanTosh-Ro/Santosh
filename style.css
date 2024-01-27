@@ -63,7 +63,7 @@ nav a {
     
     display: flex;
     overflow: hidden;
-    background-image: linear-gradient(to right, rgba(200, 186, 40, 0.915),  rgba(0,0,0,0),rgba(234, 181, 5, 0.7)),url("./assets/content.jpg");
+    background-image: linear-gradient(to right, rgba(200, 186, 40, 0.915),  rgba(0,0,0,0),rgba(234, 181, 5, 0.7)),url("./content.jpg");
             
     
     /* trbl*/
