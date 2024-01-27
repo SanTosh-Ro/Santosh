@@ -217,6 +217,7 @@ border-style:outset;
     border-style: ridge;
     
  }
+ 
 #skills H2{
     
         font-size: 40px;
@@ -248,10 +249,10 @@ border-style:outset;
  .sixty{
     width: 60%;
  }
- .skill-rate p{
+ #skillp{
     font-size: 10px;
-    margin:1% 0 1% 90%;
-    text-align: center;
+    margin:0.6% 0 0 91%;
+    
  }
  .fifty{
     width:50%;
@@ -274,15 +275,15 @@ border-style:outset;
  }
  #aligns{
     
-    margin: 0 0 0 10%;
+    margin: 0 0 0 9%;
  }
  #align1{
     
-    margin: 0 0 0 13%;
+    margin: 0 0 0 11%;
  }
  #align2{
     
-    margin: 0 0 0 12%;
+    margin: 0 0 0 10%;
  }
  
 
