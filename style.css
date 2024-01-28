@@ -3,10 +3,11 @@
 
 
 .container {
-    margin: 20px ;
+    
+    margin: 2% ;
     background-color: #beb9a1;
     border-radius: 20px;
-    position: relative;
+    
     box-shadow: 0 0 15px #cfaf66;
 }
 
@@ -16,7 +17,7 @@ header {
    background-color: red;
     background: linear-gradient(to right, rgba(155, 124, 12, 0.7), rgba(0,0,0,0), rgba(195, 198, 29, 0.915));
     color: #fff;
-    width: 97.2%;
+    
     padding: 20px;
     text-align: center;
     display: flex;
@@ -62,13 +63,14 @@ nav a {
 
 #background{
     height: 70vh;
-    width: 100%;
+    width: 98%;
+    margin:1% 1% 1% 1%;
     /*background-image: url("./assets/content.jpg");*/
     background-size: cover;
     
     border-radius: 100px;
-    margin-top:10px;
-    margin-bottom: 10px;
+    
+    justify-content: space-between;
     display: flex;
     overflow: hidden;
     background-image: linear-gradient(to right, rgba(200, 186, 40, 0.915),  rgba(0,0,0,0),rgba(234, 181, 5, 0.7)),url("./assets/content.jpg");
@@ -77,46 +79,57 @@ nav a {
     /* trbl*/
     box-shadow: 0 0 50px 0 rgba(220, 243, 120, 0.6);
 
+
+    
 }
+.videos {
+    
+    margin:8% 25% 0 0;
+    
+    
+}
+
 #profile-video {
-    border-radius: 50%;
+    border-radius: 100%;
     height:40vh;
-    width: 300px;
-    
-    
-    
    
-    
-    margin: 35% 270%;
-    
+   
     
     
     
     box-shadow: 10px 10px 30px 5px rgba(32, 33, 29, 0.8); 
 }
+.videos video{
+    
+    width: 100%;
+}
 
+#texts{
+    width:200%;
+    
+    margin:25% 0 0 25%;
+    text-align: right;
+    
+}
 
-
-#texts {
+#text {
     font-size: 70px;
     font-style: italic;
     -webkit-text-stroke: 2px goldenrod;
     
-    display: flex;
     color: white;
-    outline: 20px rgb(255, 242, 4);
+    
     text-shadow:0 0 12px #333;
     /*text-decoration-line: overline;*/
     text-decoration-color: rgb(200, 241, 97);
     /*text-decoration-thickness: 2px;*/
     
-    margin-top: 70px;
-    margin-left: 80px;
+    
     
     
 }
 #web-text {
-    margin-top: 10px;
+    margin: 1% 0 0 0;
     font-size: 40px;
     font-weight:lighter;
     font-family: forte;
@@ -213,9 +226,12 @@ border-style:outset;
  .skill-container{
     padding:10px;
     border:5px solid gold ;
-    margin:1% 0 10% 5%;
-    width: 50%;
+    margin:1% 0 1% 5%;
+    width: 60%;
     border-style: ridge;
+    border-radius: 10px;
+    
+    background-color: rgb(168, 210, 94);
     
  }
  
@@ -240,19 +256,41 @@ border-style:outset;
     height:2vh;
     width:100%;
     border-radius: 30px;
-    border: 2px solid gold;
+    border: 1px solid gold;
     
     background-color: #555c0a;
-    margin-left:1%;
-    display: flex;
     
- }
+    display: flex;
+}
+.skill-rate2{
+    height:2vh;
+    
+    width: 75%;
+    padding-bottom: 0.2%;
+    margin:0 0 0 1%;
+    
+    border-radius: 30px;
+    background-color: rgb(233, 237, 196);
+    border: 3px solid goldenrod;
+    border-style: ridge;
+
+}
+    
+
  .sixty{
     width: 60%;
+    
  }
  #skillp{
-    font-size: 10px;
-    margin:0.6% 0 0 91%;
+    font-size: 9px;
+    padding: 1px;
+    background-color: gold;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 95%;
+    
+    
+    
     
  }
  .fifty{
@@ -272,20 +310,92 @@ border-style:outset;
     
  }
  .skillitem p{
+    
     margin:0 1% 0 0;
  }
  #aligns{
     
-    margin: 0 0 0 9%;
+    margin: 0 0 0 7%;
  }
  #align1{
     
-    margin: 0 0 0 11%;
+    margin: 0 0 0 9%;
  }
  #align2{
     
-    margin: 0 0 0 10%;
+    margin: 0 0 0 8.5%;
  }
+
+
+ #blog {
+    width: 40%;
+    margin:  0 10%;
+}
+
+article {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    border:2px solid gold;
+    border-style: ridge;
+}
+
+.read-more-btn {
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.read-more-btn:hover {
+    background-color: #555;
+}
+
+
+ .contact-container {
+    width: 30%;
+    margin: 0 0 0 34%;
+    border: 2px solid gold;
+    border-style: ridge;
+    
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  label {
+    display: block;
+    
+    margin-bottom: 8px;
+  }
+
+  input, textarea {
+    width: 95%;
+    
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing:content-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
  
 
 

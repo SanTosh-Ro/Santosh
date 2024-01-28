@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Santosh Rouniyar</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="screen.css">
 </head>
 <body>
 <div class="container">
@@ -29,23 +30,27 @@
 </header>
 <div class="line"> </div>
 <div id="background">
-    <div>
-    <video src="./assets/profile.mp4" autoplay loop muted id="profile-video" >
-    </div>
+    
+
     <section id="home">
         
        
     <div id="texts">
         
         <H1 id="text">Hii!! I'm <br > Santosh</H1>
-    </div>
+        <br>
+    
         <p id="web-text">Website Developer,<br> Digital Creater
 
         </p>
         
+    </div>
     </section>
+    <div class="videos">
+        <video src="./assets/profile.mp4" autoplay loop muted id="profile-video" >
+        </div>
     
-   
+    
 </div>  
 
 <div class="line"> </div>
@@ -80,24 +85,57 @@
     <H2>My Skills</H2>
 <div class="skill-container">
     
-    <div class="skillitem"><p id="aligns">HTML</p ></HTML> <div class="skill-rate sixty"><p id="skillp">60%</p></div></div>
-    <div class="skillitem"><p id="align1">CSS</p> <div class="skill-rate fifty" ><p id="skillp"id="skillp">50%</p></div></div>
-    <div class="skillitem"><p>Video Editing </p><div class="skill-rate sixty" ><p id="skillp">60%</p></div></div>
-    <div class="skillitem"><p id="align2">Blog</p> <div class="skill-rate fourty"><p id="skillp">40%</p></div></div>
+    <div class="skillitem"><p id="aligns">HTML</p ></HTML> <div class="skill-rate2"><div class="skill-rate sixty"><p id="skillp">60%</p></div></div></div>
+    <div class="skillitem"><p id="align1">CSS</p> <div class="skill-rate2"><div class="skill-rate fifty" ><p id="skillp"id="skillp">50%</p></div></div></div>
+    <div class="skillitem"><p>Video Editing </p><div class="skill-rate2"><div class="skill-rate sixty" ><p id="skillp">60%</p></div></div></div>
+    <div class="skillitem"><p id="align2">Blog</p> <div class="skill-rate2"><div class="skill-rate fourty"><p id="skillp">40%</p></div></div></div>
 </div>
 </section>
 
 <section id="blog">
-    
+    <H1>My Blog</H1>
+    <article>
+        <h2>What is Web Developer</h2>
+        <p>A web developer is a professional responsible for designing, building, and maintaining websites or web applications. 
+            They work with various programming languages, such as HTML, CSS, and JavaScript, 
+            to create the visual elements and functionality of a website.</p>
+        <button class="read-more-btn" onclick="toggleReadMore(this)">Read more</button>
+    </article>
+
+    <article>
+        <h2>Web Developer Vs Web Designer</h2>
+        <p>web designers focus on the visual and user interface aspects, web developers concentrate 
+            on the technical implementation and functionality of a website. Both roles are essential 
+            in the collaborative effort to create effective and engaging websites.
+        </p>
+        <button class="read-more-btn" onclick="toggleReadMore(this)">Read more</button>
+    </article>
     
 </section>
 
 <section id="contact">
+   
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+    
+          <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+    </div>
+      
     
    
 </section>
 <footer class="footer">
-    <p>this site is under development</p>
+    <p>Developed by @Santosh Rouniyar</p>
 </footer>
 
 
