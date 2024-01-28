@@ -48,8 +48,8 @@
     }
     .videos {
         
-        margin:20% 30% 0 0;
-        border: 2px solid black;
+        margin:20% 15% 0 0;
+        
         
     }
     
@@ -81,11 +81,60 @@
         
     }
     #text{
-        font-size: 10px;
+        font-size: 35px;
+        margin:0 1% 0 0;
     }
     #web-text{
-        font-size:10px;
+        font-size:18px;
+        margin:0 0 0 0 ;
     }
+    .about_img {
+        display:flex;
+        flex-direction: column;
+    }
+    .about_img img {
+        width:100%;
+        margin:1%;
+    }
+    .about-texts{
+        width:92%;
+        margin: 1%;
+        margin-bottom: 6%;
+    }
+    #skills H2{
+        width:45%;
+    }
+    .skill-container {
+        width:80%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+    .skill-rate2{
+        width:60%;
+    }
+    #aligns{
+    
+        margin: 0 0 0 18%;
+     }
+     #align1{
+        
+        margin: 0 0 0 24%;
+     }
+     #align2{
+        
+        margin: 0 0 0 23%;
+     }
+     #blog{
+        width:80%;
+        margin-top: 5%;
+     }
+     #blog h1{
+        font-size: 50px;
+     }
+     .contact-container{
+        width:80%;
+        margin:6% 1% 1% 4%;
+     }
     
         
 
